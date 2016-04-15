@@ -47,6 +47,7 @@ class ClassificacaoController {
             return
         }
 
+
         def timeLanterna = classificacao2015Service.obterLanterna(campeonato)
 
         if(!timeLanterna){

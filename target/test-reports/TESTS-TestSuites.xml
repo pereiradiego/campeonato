@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="euler-zeroglosa" id="0" name="ClassificacaoControllerTests" package="br.zg.trainning" tests="1" time="1.409" timestamp="2016-04-15T18:50:44">
+      <properties />
+
+      <testcase classname="br.zg.trainning.ClassificacaoControllerTests" name="testLanternaValid" time="1.384" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

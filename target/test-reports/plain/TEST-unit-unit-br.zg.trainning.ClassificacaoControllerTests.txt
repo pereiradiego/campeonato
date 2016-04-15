@@ -1,0 +1,4 @@
+Testsuite: br.zg.trainning.ClassificacaoControllerTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1,409 sec
+
+Testcase: testLanternaValid took 1,384 sec

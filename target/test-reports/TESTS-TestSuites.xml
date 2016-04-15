@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="euler-zeroglosa" id="0" name="ClassificacaoControllerTests" package="br.zg.trainning" tests="1" time="1.409" timestamp="2016-04-15T18:50:44">
+  <testsuite errors="0" failures="0" hostname="euler-zeroglosa" id="0" name="ClassificacaoControllerTests" package="br.zg.trainning" tests="1" time="1.633" timestamp="2016-04-15T19:32:06">
       <properties />
 
-      <testcase classname="br.zg.trainning.ClassificacaoControllerTests" name="testLanternaValid" time="1.384" />
+      <testcase classname="br.zg.trainning.ClassificacaoControllerTests" name="testLanternaValid" time="1.581" />
 
       <system-out><![CDATA[]]></system-out>
 

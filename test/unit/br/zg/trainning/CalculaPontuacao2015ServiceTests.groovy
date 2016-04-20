@@ -19,6 +19,7 @@ class CalculaPontuacao2015ServiceTests{
 
         assert pontos_vitoria == 51
     }
+
     void testCalculaPontuacaoEmpate(){
         Time time = new Time(id: 1, nomeTime: "Figueirense", quantVitoria: 17, quantEmpate: 19, quantDerrota: 2,
                 quantGolPro: 40, quantGolContra: 32)

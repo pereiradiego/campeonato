@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="euler-zeroglosa" id="0" name="ClassificacaoControllerTests" package="br.zg.trainning" tests="1" time="1.633" timestamp="2016-04-15T19:32:06">
+  <testsuite errors="0" failures="1" hostname="euler-zeroglosa" id="0" name="CalculaPontuacao2015ServiceTests" package="br.zg.trainning" tests="1" time="0.186" timestamp="2016-04-19T19:56:19">
       <properties />
 
-      <testcase classname="br.zg.trainning.ClassificacaoControllerTests" name="testLanternaValid" time="1.581" />
+      <testcase classname="br.zg.trainning.CalculaPontuacao2015ServiceTests" name="testCalculaPontuacaoVitoriaInvalid" time="0.156">
+          <failure message="junit.framework.AssertionFailedError: Closure br.zg.trainning.CalculaPontuacao2015ServiceTests$_testCalculaPontuacaoVitoriaInvalid_closure1@4ebd7d21 should have failed with an exception of type java.lang.Exception" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Closure br.zg.trainning.CalculaPontuacao2015ServiceTests$_testCalculaPontuacaoVitoriaInvalid_closure1@4ebd7d21 should have failed with an exception of type java.lang.Exception
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at grails.test.mixin.support.GrailsUnitTestMixin.shouldFail(GrailsUnitTestMixin.groovy:203)
+	at br.zg.trainning.CalculaPontuacao2015ServiceTests.shouldFail(CalculaPontuacao2015ServiceTests.groovy)
+	at br.zg.trainning.CalculaPontuacao2015ServiceTests$shouldFail.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:145)
+	at br.zg.trainning.CalculaPontuacao2015ServiceTests.testCalculaPontuacaoVitoriaInvalid(CalculaPontuacao2015ServiceTests.groovy:25)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.test.junit4.JUnit4GrailsTestType.doRun(JUnit4GrailsTestType.groovy:113)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:272)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:52)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.grails.test.support.GrailsTestTypeSupport.run(GrailsTestTypeSupport.groovy:118)
+	at org.codehaus.groovy.grails.test.GrailsTestType$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+</failure>
+
+      </testcase>
 
       <system-out><![CDATA[]]></system-out>
 
